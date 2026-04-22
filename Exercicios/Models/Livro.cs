@@ -12,14 +12,11 @@ namespace Exercicios.Models
             this.ano = ano;
         }
 
-        public new void Exibirinfo()
+        public void Exibirinfo()
         {
-            Console.WriteLine($"Título: {titulo}");
-            Console.WriteLine($"Autor: {autor}");
-            Console.WriteLine($"Ano: {ano}");
+            Console.WriteLine($"Título: {titulo}\n");
+            Console.WriteLine($"Autor: {autor}\n");
+            Console.WriteLine($"Ano: {ano}\n");
         }
     }
-
-
-    
 }
